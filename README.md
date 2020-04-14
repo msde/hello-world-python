@@ -6,14 +6,14 @@ To run, `make deps run`.
 
 ## design notes
 
-for simplicity, execution deps, IDE deps, and test deps are combined into a single `make deps` that runs an unpinned `pip install`.
+See `docs/design.md`
 
 ## initial system setup (macos)
 
 ```
 brew install pyenv
-pyenv install 3.7.7
-pyenv global 3.7.7
+pyenv install 3.8.2
+pyenv global 3.8.2
 ```
 
 ## installation
@@ -21,7 +21,7 @@ pyenv global 3.7.7
 make deps
 ```
 
-## running shieh/main.py
+## running main.py
 ```
 make run
 ```

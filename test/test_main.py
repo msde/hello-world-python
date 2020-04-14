@@ -1,4 +1,5 @@
-from shieh import main
+import main
+
 
 def test_hello():
-  assert main.hello() == 'hello world'
+    assert main.hello() == "hello world"
